@@ -50,7 +50,10 @@ body {
     color: #003d57;
     text-decoration: none;
     margin: 20px;
-    padding: 25px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-bottom: 15px;
 }
 .btn:active {
     box-shadow: 0 5px rgba(0, 0, 0, 0.7) 0px 10px 30px;
@@ -98,10 +101,12 @@ body {
     text-align: center;
 }
 .upgrades h2 {
-    color: #002673;
+    color: #003d57;
+    font-size: 36px;
 }
 .help h2 {
-    color: #002673;
+    color: #003d57;
+    font-size: 36px;
 }
 .object {
     display: flex;
@@ -180,11 +185,17 @@ body {
     .buyButton {
         font-size: 30px;
     }
+    .upgrades h2 {
+        font-size: 30px;
+    }
+    .help h2 {
+        font-size: 30px;
+    }
 }  
 
 @media screen and (max-width: 700px) {
     .btn {
-        font-size: 50px;
+        font-size: 54px;
     }
     .logo-center h1 {
         font-size: 50px;
@@ -201,11 +212,17 @@ body {
     .buyButton {
         font-size: 25px;
     }
+    .upgrades h2 {
+        font-size: 26px;
+    }
+    .help h2 {
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .btn {
-        font-size: 46px;
+        font-size: 50px;
     }
     .logo-center h1 {
         font-size: 46px;
@@ -222,11 +239,17 @@ body {
     .buyButton {
         font-size: 20px;
     }
+    .upgrades h2 {
+        font-size: 24px;
+    }
+    .help h2 {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .btn {
-        font-size: 40px;
+        font-size: 46px;
     }
     .logo-center h1 {
         font-size: 40px;
@@ -242,12 +265,18 @@ body {
     }
     .buyButton {
         font-size: 15px;
+    }
+    .upgrades h2 {
+        font-size: 22px;
+    }
+    .help h2 {
+        font-size: 22px;
     }
 }
 
 @media screen and (max-width: 450px) {
     .btn {
-        font-size: 37px;
+        font-size: 40px;
     }
     .logo-center h1 {
         font-size: 37px;
@@ -263,12 +292,18 @@ body {
     }
     .buyButton {
         font-size: 13px;
+    }
+    .upgrades h2 {
+        font-size: 20px;
+    }
+    .help h2 {
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .btn {
-        font-size: 33px;
+        font-size: 37px;
     }
     .logo-center h1 {
         font-size: 33px;
@@ -284,12 +319,18 @@ body {
     }
     .buyButton {
         font-size: 11px;
+    }
+    .upgrades h2 {
+        font-size: 19px;
+    }
+    .help h2 {
+        font-size: 19px;
     }
 }
 
 @media screen and (max-width: 350px) {
     .btn {
-        font-size: 28px;
+        font-size: 33px;
     }
     .logo-center h1 {
         font-size: 28px;
@@ -305,12 +346,18 @@ body {
     }
     .buyButton {
         font-size: 10px;
+    }
+    .upgrades h2 {
+        font-size: 18px;
+    }
+    .help h2 {
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width: 300px) {
     .btn {
-        font-size: 25px;
+        font-size: 28px;
     }
     .logo-center h1 {
         font-size: 25px;
@@ -326,5 +373,11 @@ body {
     }
     .buyButton {
         font-size: 9px;
+    }
+    .upgrades h2 {
+        font-size: 16px;
+    }
+    .help h2 {
+        font-size: 16px;
     }
 }
