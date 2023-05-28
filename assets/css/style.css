@@ -57,3 +57,21 @@ body {
     box-shadow: 0 5px rgba(0, 0, 0, 0.7) 0px 10px 30px;
     transform: translateY(4px);
 }
+.space {
+    height: 50px;
+}
+
+/*---------- Footer ---------*/
+
+.frame {
+    text-align: center;
+}
+.media {
+    display: flex;
+    justify-content: space-around;
+}
+.personal {
+    font-size: 24px;
+    color: #FF812C;
+    text-shadow: -1px 0 #002673, 0 1px #002673, 1px 0 #002673, 0 -1px #002673;
+}
