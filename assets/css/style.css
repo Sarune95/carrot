@@ -87,6 +87,62 @@ body {
     width: 50%;
 }
 
+/*----------Friends Upgrades---------*/
+.help-upgrades {
+    display: grid;
+}
+.help {
+    display: grid;
+    text-align: center;
+}
+.upgrades {
+    display: grid;
+    text-align: center;
+}
+.object {
+    display: flex;
+}
+.pic {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details {
+    width: 40%;
+    
+}
+.details p {
+    font-size: 22px;
+    color: #FF812C;
+    text-shadow: -1px 0 #002673, 0 1px #002673, 1px 0 #002673, 0 -1px #002673;
+}
+.button {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buyButton {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
+    font-size: 34px;
+    background-color:#FF812C ;
+    color: #FFFFFE;
+    text-shadow: -1px 0 #002673, 0 2px #002673, 2px 0 #002673, 0 -1px #002673;
+}
+.buyButton:active {
+    box-shadow: 0 5px rgba(0, 0, 0, 0.7) 0px 10px 30px;
+    transform: translateY(2px);
+}
+#hero {
+    width: 50%;
+    border-radius: 50%;
+}
+#upgrades {
+    width: 40%;
+}
+
 /*---------- Footer ---------*/
 
 .frame {
