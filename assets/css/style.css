@@ -40,7 +40,7 @@ body {
     text-shadow: -1px 0 #002673, 0 1px #002673, 1px 0 #002673, 0 -1px #002673;
 }
 /*--------- Play Button----------*/
-.message {
+.welcome {
     text-align: center;
 }
 .btn {
@@ -59,6 +59,32 @@ body {
 }
 .space {
     height: 50px;
+}
+/*--------- Game statistics ---------*/
+.play-stats {
+    display: flex;
+}
+.stats-info-right {
+    display: grid;
+    width: 50%;
+    text-align: center;
+    font-size: 32px;
+    color: #FF812C;
+    text-shadow: -1px 0 #002673, 0 1px #002673, 1px 0 #002673, 0 -1px #002673;
+}
+.stats-info-right p {
+    margin: auto;
+}
+.message {
+    text-align: center;
+}
+
+.carrots {
+    width: 50%;
+    text-align: center;
+}
+#clickCarrot {
+    width: 50%;
 }
 
 /*---------- Footer ---------*/
