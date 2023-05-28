@@ -5,3 +5,55 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+/*---------- Page and Logo----------*/
+.page {
+    max-width: 960px;
+    margin: auto;
+    background-color: #3ADAFB;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
+}
+.logo {
+    display: flex;
+}
+.logo-center {
+    width: 50%;
+    text-align: center;
+}
+.logo-center h1 {
+    font-size: 64px;
+    color: #FF812C;
+    text-shadow: -1px 0 #002673, 0 2px #002673, 2px 0 #002673, 0 -1px #002673;
+}
+#info {
+    width: 50%;
+}
+
+/*---------- Menu message----------*/
+.popup {
+    text-align: center;
+}
+.popup p {
+    font-size: 32px;
+    color: #FF812C;
+    text-shadow: -1px 0 #002673, 0 1px #002673, 1px 0 #002673, 0 -1px #002673;
+}
+/*--------- Play Button----------*/
+.message {
+    text-align: center;
+}
+.btn {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
+    font-size: 64px;
+    background-color:#FF812C ;
+    color: #FFFFFE;
+    text-shadow: -1px 0 #002673, 0 2px #002673, 2px 0 #002673, 0 -1px #002673;
+    text-decoration: none;
+    padding: 5px;
+}
+.btn:active {
+    box-shadow: 0 5px rgba(0, 0, 0, 0.7) 0px 10px 30px;
+    transform: translateY(4px);
+}
