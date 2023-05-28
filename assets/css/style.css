@@ -87,7 +87,7 @@ body {
     width: 50%;
 }
 
-/*----------Friends Upgrades---------*/
+/*----------Friends / Upgrades---------*/
 .help-upgrades {
     display: grid;
 }
@@ -156,4 +156,173 @@ body {
     font-size: 24px;
     color: #FF812C;
     text-shadow: -1px 0 #002673, 0 1px #002673, 1px 0 #002673, 0 -1px #002673;
+}
+
+/*---------- All media ----------*/
+@media screen and (max-width: 800px) {
+    .btn {
+        font-size: 58px;
+    }
+    .logo-center h1 {
+        font-size: 58px;
+    }
+    .stats-info-right {
+        font-size: 30px;
+    }
+    .popup p {
+        font-size: 30px;
+    }
+    .details p {
+        font-size: 21px;
+    }
+    .buyButton {
+        font-size: 30px;
+    }
+}  
+
+@media screen and (max-width: 700px) {
+    .btn {
+        font-size: 50px;
+    }
+    .logo-center h1 {
+        font-size: 50px;
+    }
+    .stats-info-right {
+        font-size: 26px;
+    }
+    .popup p {
+        font-size: 26px;
+    }
+    .details p {
+        font-size: 19px;
+    }
+    .buyButton {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        font-size: 46px;
+    }
+    .logo-center h1 {
+        font-size: 46px;
+    }
+    .stats-info-right {
+        font-size: 24px;
+    }
+    .popup p {
+        font-size: 24px;
+    }
+    .details p {
+        font-size: 17px;
+    }
+    .buyButton {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .btn {
+        font-size: 40px;
+    }
+    .logo-center h1 {
+        font-size: 40px;
+    }
+    .stats-info-right {
+        font-size: 23px;
+    }
+    .popup p {
+        font-size: 23px;
+    }
+    .details p {
+        font-size: 15px;
+    }
+    .buyButton {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .btn {
+        font-size: 37px;
+    }
+    .logo-center h1 {
+        font-size: 37px;
+    }
+    .stats-info-right {
+        font-size: 21px;
+    }
+    .popup p {
+        font-size: 21px;
+    }
+    .details p {
+        font-size: 13px;
+    }
+    .buyButton {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .btn {
+        font-size: 33px;
+    }
+    .logo-center h1 {
+        font-size: 33px;
+    }
+    .stats-info-right {
+        font-size: 18px;
+    }
+    .popup p {
+        font-size: 18px;
+    }
+    .details p {
+        font-size: 11px;
+    }
+    .buyButton {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .btn {
+        font-size: 28px;
+    }
+    .logo-center h1 {
+        font-size: 28px;
+    }
+    .stats-info-right {
+        font-size: 15px;
+    }
+    .popup p {
+        font-size: 15px;
+    }
+    .details p {
+        font-size: 10px;
+    }
+    .buyButton {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .btn {
+        font-size: 25px;
+    }
+    .logo-center h1 {
+        font-size: 25px;
+    }
+    .stats-info-right {
+        font-size: 13px;
+    }
+    .popup p {
+        font-size: 13px;
+    }
+    .details p {
+        font-size: 9px;
+    }
+    .buyButton {
+        font-size: 9px;
+    }
 }
