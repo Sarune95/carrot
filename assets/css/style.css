@@ -56,7 +56,7 @@ body {
     padding-bottom: 15px;
 }
 .btn:active {
-    box-shadow: 0 5px rgba(0, 0, 0, 0.7) 0px 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
     transform: translateY(4px);
 }
 .space {
@@ -140,14 +140,14 @@ body {
     padding: 25px;
 }
 .buyButton:active {
-    box-shadow: 0 5px rgba(0, 0, 0, 0.7) 0px 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
     transform: translateY(2px);
 }
-#hero {
+.friends {
     width: 50%;
     border-radius: 50%;
 }
-#upgrades {
+.upgrades-pic {
     width: 40%;
 }
 
@@ -276,7 +276,7 @@ body {
 
 @media screen and (max-width: 450px) {
     .btn {
-        font-size: 40px;
+        font-size: 38px;
     }
     .logo-center h1 {
         font-size: 37px;
@@ -303,7 +303,7 @@ body {
 
 @media screen and (max-width: 400px) {
     .btn {
-        font-size: 37px;
+        font-size: 30px;
     }
     .logo-center h1 {
         font-size: 33px;
@@ -330,7 +330,7 @@ body {
 
 @media screen and (max-width: 350px) {
     .btn {
-        font-size: 33px;
+        font-size: 23px;
     }
     .logo-center h1 {
         font-size: 28px;
@@ -357,7 +357,7 @@ body {
 
 @media screen and (max-width: 300px) {
     .btn {
-        font-size: 28px;
+        font-size: 20px;
     }
     .logo-center h1 {
         font-size: 25px;

@@ -29,7 +29,7 @@ function increment() {
     carrots += carrotsPerClick;
 	document.getElementById("showCarrots").innerText = carrots;
 	if (carrots >= 999999) { // num can be changed to increase/decrease  goal
-		document.getElementById("gameOver").innerText = "Congrats!!! You beat the score"
+		document.getElementById("gameOver").innerText = "Congrats!!! You beat the score";
 	}
 }
 
@@ -38,9 +38,9 @@ setInterval(function() {
 	carrots += carrotsPerSecond;
     document.getElementById("showCarrots").innerText = carrots;
 	if (carrots >= 999999) { // num can be changed to increase/decrease  goal
-		document.getElementById("gameOver").innerText = "Congrats!!! You beat the score"
+		document.getElementById("gameOver").innerText = "Congrats!!! You beat the score";
 	}
-}, 1000) // every second (1000 milliseconds)
+}, 1000); // every second (1000 milliseconds)
 
 // Upgrade Bucket
 function buyBucket() {
@@ -54,7 +54,7 @@ function buyBucket() {
 		carrotsPerClick += 1;
 		document.getElementById("showCarrotsPerClick").innerText = carrotsPerClick;
 	} else {
-		alert("You don't have enough Carrots!")
+		alert("You don't have enough Carrots!");
 	}
 }
 
@@ -70,7 +70,7 @@ function buyShovel() {
 		carrotsPerClick += 10;
 		document.getElementById("showCarrotsPerClick").innerText = carrotsPerClick;
 	}	else {
-		alert("You don't have enough Carrots!")
+		alert("You don't have enough Carrots!");
 	}
 
 }
@@ -87,7 +87,7 @@ function buyDigger() {
 		carrotsPerClick += 100;
 		document.getElementById("showCarrotsPerClick").innerText = carrotsPerClick;
 	}	else {
-		alert("You don't have enough Carrots!")
+		alert("You don't have enough Carrots!");
 	}
 }
 
@@ -103,7 +103,7 @@ function buyRoger() {
         carrotsPerSecond += 10;
         document.getElementById("showCarrotsPerSecond").innerText = carrotsPerSecond;
     } else {
-        alert("You don't have enough Carrots!") 
+        alert("You don't have enough Carrots!"); 
 	}
 }
 
@@ -119,7 +119,7 @@ function buySteve() {
 		carrotsPerSecond += 100;
 		document.getElementById("showCarrotsPerSecond").innerText = carrotsPerSecond;	
 	} else { // if there enough apples
-		alert("You don't have enough Carrots!")
+		alert("You don't have enough Carrots!");
 	}
 }
 
@@ -135,6 +135,6 @@ function buyMatt() {
 		carrotsPerSecond += 1000;
 		document.getElementById("showCarrotsPerSecond").innerText = carrotsPerSecond;
 	}	else {
-		alert("You don't have enough Carrots!")
+		alert("You don't have enough Carrots!");
 	}
 }
