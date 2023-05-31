@@ -27,16 +27,12 @@ body {
     
 }
 #info {
-    width: 50%;
+    width: 40%;
 }
 
-/*---------- Menu message----------*/
-.popup {
+/*---------- Game area ----------*/
+.hit {
     text-align: center;
-}
-.popup p {
-    font-size: 32px;
-    color: #003d57;
 }
 /*--------- Play Button----------*/
 .welcome {
@@ -49,11 +45,9 @@ body {
     background-color:#FF812C ;
     color: #003d57;
     text-decoration: none;
-    margin: 20px;
+    margin: 5px;
     padding-left: 50px;
-    padding-top: 15px;
     padding-right: 50px;
-    padding-bottom: 15px;
 }
 .btn:active {
     box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
@@ -73,11 +67,18 @@ body {
     font-size: 32px;
     color: #003d57;
 }
-.stats-info-right p {
-    margin: auto;
-}
-.message {
+.popup {
+    display: grid;
+    width: 50%;
     text-align: center;
+    font-size: 32px;
+    color: #003d57;
+}
+.stats-info-right p {
+    margin: 0;
+}
+.popup p {
+    margin: 0;
 }
 
 .carrots {
@@ -85,7 +86,7 @@ body {
     text-align: center;
 }
 #clickCarrot {
-    width: 50%;
+    width: 35%;
 }
 
 /*----------Friends / Upgrades---------*/
@@ -122,6 +123,7 @@ body {
     
 }
 .details p {
+    margin: 7px;
     font-size: 22px;
     color: #003d57;
 }
@@ -132,23 +134,23 @@ body {
     justify-content: center;
 }
 .buyButton {
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
     font-size: 34px;
     background-color:#FF812C ;
     color: #003d57;
-    padding: 25px;
+    padding: 10px;
 }
 .buyButton:active {
     box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
     transform: translateY(2px);
 }
 .friends {
-    width: 50%;
+    width: 35%;
     border-radius: 50%;
 }
 .upgrades-pic {
-    width: 40%;
+    width: 35%;
 }
 
 /*---------- Footer ---------*/
@@ -174,6 +176,12 @@ body {
         font-size: 58px;
     }
     .stats-info-right {
+        font-size: 30px;
+    }
+    .stats-info-right p {
+        font-size: 30px;
+    }
+    .popup {
         font-size: 30px;
     }
     .popup p {
@@ -203,6 +211,12 @@ body {
     .stats-info-right {
         font-size: 26px;
     }
+    .stats-info-right p {
+        font-size: 26px;
+    }
+    .popup {
+        font-size: 26px;
+    }
     .popup p {
         font-size: 26px;
     }
@@ -228,6 +242,12 @@ body {
         font-size: 46px;
     }
     .stats-info-right {
+        font-size: 24px;
+    }
+    .stats-info-right p {
+        font-size: 24px;
+    }
+    .popup {
         font-size: 24px;
     }
     .popup p {
@@ -257,6 +277,12 @@ body {
     .stats-info-right {
         font-size: 23px;
     }
+    .stats-info-right p {
+        font-size: 23px;
+    }
+    .popup {
+        font-size: 23px;
+    }
     .popup p {
         font-size: 23px;
     }
@@ -282,6 +308,12 @@ body {
         font-size: 37px;
     }
     .stats-info-right {
+        font-size: 21px;
+    }
+    .stats-info-right p {
+        font-size: 21px;
+    }
+    .popup {
         font-size: 21px;
     }
     .popup p {
@@ -311,6 +343,12 @@ body {
     .stats-info-right {
         font-size: 18px;
     }
+    .stats-info-right p {
+        font-size: 18px;
+    }
+    .popup {
+        font-size: 18px;
+    }
     .popup p {
         font-size: 18px;
     }
@@ -338,6 +376,12 @@ body {
     .stats-info-right {
         font-size: 15px;
     }
+    .stats-info-right p {
+        font-size: 15px;
+    }
+    .popup {
+        font-size: 15px;
+    }
     .popup p {
         font-size: 15px;
     }
@@ -363,6 +407,12 @@ body {
         font-size: 25px;
     }
     .stats-info-right {
+        font-size: 13px;
+    }
+    .stats-info-right p {
+        font-size: 13px;
+    }
+    .popup {
         font-size: 13px;
     }
     .popup p {

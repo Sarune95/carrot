@@ -26,26 +26,25 @@
             </div>
         </div>
         <!-- Starts page content -->
-        
-        <div class="popup">
-            <p id="gameOver">Goal is dig 9999999 Carrots can you do it?</p>    
-        </div>
-        <hr>      
-        <div class="message">
-            <button class="btn" onclick="increment()">HIT</button>
-        </div>
         <!-- Game Statistics -->
-        <br>
-        <hr>
         <div class="play-stats">
-            <div class="carrots">
-                <img src="assets/images/game/carrot.png" id="clickCarrot" alt="Carrot going shopping">
+            <div class="popup">
+                <h3>Goals</h3>
+                <p id="gameOver">1.000 Carrots</p>
+                <p id="gameOver">100.000 Carrots</p>
+                <p id="gameOver">10.000.000 Carrots</p>  
             </div>
             <div class="stats-info-right">
-                <p id="carrotsCounter">Carrots <span id="showCarrots" class="number">0</span></p>
+                <h3>Info</h3>
+                <p>Carrots <span id="showCarrots" class="number">0</span></p>
                 <p>Carrots/second <span id="showCarrotsPerSecond" class="number">0</span></p>
                 <p>Carrots/click <span id="showCarrotsPerClick" class="number">1</span></p>
             </div> 
+        </div>
+        <!---------Play button ---------->
+        <hr>
+        <div class="hit">
+            <button class="btn" onclick="increment()">HIT</button>
         </div>
         <!-- Game Upgrades -->
         <hr>
