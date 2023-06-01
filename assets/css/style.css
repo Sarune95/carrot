@@ -10,7 +10,7 @@ body {
 .page {
     max-width: 960px;
     margin: auto;
-    background-color: #3ADAFB;
+    background-color: #37DCFF;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
 }
@@ -29,7 +29,22 @@ body {
 #info {
     width: 40%;
 }
-
+.start-game {
+    text-align: center;
+}
+.enter-msg {
+    padding: 10px;
+    font-size: 30px;
+    color: #003d57;
+}
+.info {
+    margin: 0;
+    font-size: 24px;
+    color: #003d57;
+}
+.info p {
+    margin: 0;
+}
 /*---------- Game area ----------*/
 .hit {
     text-align: center;
@@ -39,15 +54,15 @@ body {
     text-align: center;
 }
 .btn {
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
     font-size: 64px;
     background-color:#FF812C ;
     color: #003d57;
     text-decoration: none;
     margin: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .btn:active {
     box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 30px;
@@ -76,15 +91,14 @@ body {
 }
 .stats-info-right p {
     margin: 0;
+    color: #003d57;
 }
 .popup p {
     margin: 0;
+    color: #003d57;
 }
 
-.carrots {
-    width: 50%;
-    text-align: center;
-}
+
 #clickCarrot {
     width: 35%;
 }
@@ -199,6 +213,12 @@ body {
     .help h2 {
         font-size: 30px;
     }
+    .enter-msg {
+        font-size: 28px;
+    }
+    .info {
+        font-size: 22px;
+    }
 }  
 
 @media screen and (max-width: 700px) {
@@ -231,6 +251,12 @@ body {
     }
     .help h2 {
         font-size: 26px;
+    }
+    .enter-msg {
+        font-size: 26px;
+    }
+    .info {
+        font-size: 20px;
     }
 }
 
@@ -265,6 +291,12 @@ body {
     .help h2 {
         font-size: 24px;
     }
+    .enter-msg {
+        font-size: 24px;
+    }
+    .info {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -297,6 +329,12 @@ body {
     }
     .help h2 {
         font-size: 22px;
+    }
+    .enter-msg {
+        font-size: 22px;
+    }
+    .info {
+        font-size: 18px;
     }
 }
 
@@ -331,6 +369,12 @@ body {
     .help h2 {
         font-size: 20px;
     }
+    .enter-msg {
+        font-size: 19px;
+    }
+    .info {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -363,6 +407,12 @@ body {
     }
     .help h2 {
         font-size: 19px;
+    }
+    .enter-msg {
+        font-size: 16px;
+    }
+    .info {
+        font-size: 12px;
     }
 }
 
@@ -397,6 +447,12 @@ body {
     .help h2 {
         font-size: 18px;
     }
+    .enter-msg {
+        font-size: 13px;
+    }
+    .info {
+        font-size: 9px;
+    }
 }
 
 @media screen and (max-width: 300px) {
@@ -429,5 +485,11 @@ body {
     }
     .help h2 {
         font-size: 16px;
+    }
+    .enter-msg {
+        font-size: 11px;
+    }
+    .info {
+        font-size: 7px;
     }
 }
