@@ -28,19 +28,39 @@ let matt = 0;
 function increment() {
     carrots += carrotsPerClick;
 	document.getElementById("showCarrots").innerText = carrots;
-	if (carrots >= 999999) { // num can be changed to increase/decrease  goal
-		document.getElementById("gameOver").innerText = "Congrats!!! You beat the score";
+	if (carrots >= 999999999) { // num can be changed to increase/decrease  goal
+		document.getElementById("gameOver").innerText = "Congrats!!! You beat the ultimate score";
 	}
+    showResults();
 }
 
 // Increase per second
 setInterval(function() {
 	carrots += carrotsPerSecond;
     document.getElementById("showCarrots").innerText = carrots;
-	if (carrots >= 999999) { // num can be changed to increase/decrease  goal
-		document.getElementById("gameOver").innerText = "Congrats!!! You beat the score";
+	if (carrots >= 999999999) { // num can be changed to increase/decrease  goal
+		document.getElementById("gameOver").innerText = "Congrats!!! You beat the ultimate score";
 	}
+    showResults();
 }, 1000); // every second (1000 milliseconds)
+
+function showResults() {
+	let resultText = "";
+	const goal = [
+		{ name: 'STARTER', goal: 1000 },
+		{ name: 'FARMER', goal: 100000 },
+		{ name: 'SUPER RICH', goal: 10000000 }
+	  ];
+	  let showCarrots = parseInt(document.getElementById("showCarrots").innerText, 10);
+	  for (let i = 0; i < goal.length; i++) {
+		  if (showCarrots >= goal[i].goal) {
+			resultText += `${goal[i].name}\n`;
+		  } else {
+            resultText += `Unlock\n`;
+          }
+		}
+	document.getElementById("result").innerText = resultText;
+}
 
 // Upgrade Bucket
 function buyBucket() {
