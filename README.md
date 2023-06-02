@@ -3,6 +3,47 @@
 
 [LIVE PAGE](https://sarune95.github.io/carrot/)
 
+# Table of content
+
+* [Design](#design)
+  * [Colors](#colors)
+  * [Fonts](#fonts)
+* [Features](#features)
+  * [Favicon](#favicon)
+  * [Logo](#logo)
+  * [Welcome message](#wellcome-message)
+  * [Information](#information)
+  * [Goals](#goals)
+  * [404](#404)
+  * [Main game panel](#main-game-panel)
+  * [Game button](#game-button)
+  * [Upgrades](#upgrades)
+  * [Friends](#friends)
+  * [Footer](#footer)
+  * [Error message](#error)
+  * [End game goal](#end-game-goal)
+* [Automated testing](#automated-testing)
+  * [HTML](#html)
+  * [CSS](#css)
+  * [JavaScript](#javascript)
+  * [Lighthouse](#lighthouse)
+    * [Starter page](#starter-page)
+    * [Game page](#game-page)
+    * [404](#404-1)
+* [Manual testing](#manual-testing)
+  * [Web site](#web-site)
+    * [Home page](#home-page)
+    * [Game page](#game-page-1)
+    * [404 page](#404-page)
+* [Bugs](#bugs)
+* [Unfixed bugs](#unfixed-bugs)
+* [Technologies](#technologies)
+  * [Languages](#languages)
+  * [Validators](#validators)
+  * [Programs](#programs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
 # Design
 
 Carrot digging game is designed for any age group of people, simple on the eye looking and easy to understand as we also give the support for the game itself. In this game you have to keep clicking till you collect reach your goals in order to win the game, there are supports for you as to upgrade the amount of carrots or simply to add additional carrots in order for you to win faster. You can play this game at any time anywhere as there is no time limit.
