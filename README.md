@@ -29,7 +29,7 @@ Font style was selected as the browser's default to keep performance in mind.
 
 # Features
 
-Carrot web game has basic clicker game features.
+Carrot web game has basic clicker game features. Main button increase value and goes together with other multipliers, like upgrades and helpers.
 
 ## Favicon
 
