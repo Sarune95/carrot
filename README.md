@@ -280,3 +280,13 @@ To run locally:
 - Once download is completed, extract ZIP file and use in your local environment.
 
 Alternatively you can Clone or Fork this repository into your GitHub account.
+
+# Credits
+
+[Freepik](https://www.freepik.com/) for images
+
+[W3schools](https://www.w3schools.com/) for html, css and javascript help
+
+[Stack Overflow](https://stackoverflow.com) for advanced javascript
+
+Special thanks Code Institute mentor Derek Mcauley
