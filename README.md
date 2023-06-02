@@ -53,35 +53,58 @@ Web site meets user with a nice welcome message, and clear directions to start t
 
 ![information](assets/images/readme/information.jpg)
 
+Describes how to play game. Clearly indicates available options in the game.
+
 ## Goals
 
 ![goals](assets/images/readme/goals.jpg)
 
+Represents in game existing goals, and what takes to obtain them, also mentioning about end game goal requirement.
+
 ## 404
+
+![404](assets/images/readme/404.jpg)
+
+Also included 404 page in files directory with Carrot game theme and colors, which contains message and return link to website start page.
 
 ## Main game panel
 
 ![panel](assets/images/readme/main_game_panel.jpg)
 
+In this panel on the left side is represented 3 game goals, after gathering required amount, they change from Unlock into achievement name. Right side representing game statistics which are obtained by user and personally chosen upgrades.
+
 ## Game button
 
-![game Button](assets/images/readme/game_button.jpg)
+![game button](assets/images/readme/game_button.jpg)
+
+Main game button which provides main game function to increase carrots count.
 
 ## Upgrades
 
 ![upgrades](assets/images/readme/upgrades.jpg)
 
+Upgrades section includes three individual items. On the left show visual appearance, leading by details for individual upgraded and following to button to buy or upgrade.
+
 ## Friends
 
 ![friends](assets/images/readme/friends.jpg)
+
+In this section represented all your available helpers. On left shows they'r personal picture, middle shows details and follows by button to hire them and upgrade, but best part friend brings carrots to user without pressing main game button, but good things came at pretty steep price then upgrades.
 
 ## Footer
 
 ![footer](assets/images/readme/footer.jpg)
 
+Footer are simple contains only major social links.
+
 ## Error
 
 ![error](assets/images/readme/error.jpg)
 
+This error message alert only when user try upgrade or hire friend with insufficient goods.
 
+## End game goal
 
+![end game](assets/images/readme/end_goal.jpg)
+
+This message waiting everyone, but only shows up to mostly devoted users, which are chosen to gain enough carrots to reach end game.
