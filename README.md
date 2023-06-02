@@ -232,3 +232,32 @@ Mobile
 
 
 
+# Technologies
+
+## Languages
+
+[HTML](https://en.wikipedia.org/wiki/HTML) for content and structure
+
+[CSS3](https://en.wikipedia.org/wiki/CSS) for styling
+
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript) for logic and functions
+
+## Validators
+
+[W3C HTML](https://validator.w3.org/) validate HTML
+
+[W3C CSS](https://jigsaw.w3.org/css-validator/) validate CSS
+
+[Jshint](https://jshint.com) validate JavaScript
+
+## Programs
+
+[Github](https://github.com/) to save and store the files for the website
+
+[Favicon.io](https://favicon.io/) to create the favicon
+
+[Am I Responsive?](https://ui.dev/amiresponsive) TO show web site image on different devices
+
+[Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test features
+
+[Lighthouse](https://developer.chrome.com/en/docs/lighthouse/) to check web site performance
