@@ -26,3 +26,62 @@ Chosen colors giving triple A contrast between text and background.
 ## Fonts
 
 Font style was selected as the browser's default to keep performance in mind.
+
+# Features
+
+Carrot web game has basic clicker game features.
+
+## Favicon
+
+![favicon](assets/images/readme/favicon.jpg)
+
+Nice logo picture gives user, easy way to distinct web site in browser's tabs.
+
+## Logo
+
+![logo](assets/images/readme/logo.jpg)
+
+Shows web site name and picture, describing the game theme and what about it to the user.
+
+## Welcome message
+
+![welcome](assets/images/readme/welcome.jpg)
+
+Web site meets user with a nice welcome message, and clear directions to start the game.
+
+## Information
+
+![information](assets/images/readme/information.jpg)
+
+## Goals
+
+![goals](assets/images/readme/goals.jpg)
+
+## 404
+
+## Main game panel
+
+![panel](assets/images/readme/main_game_panel.jpg)
+
+## Game button
+
+![game Button](assets/images/readme/game_button.jpg)
+
+## Upgrades
+
+![upgrades](assets/images/readme/upgrades.jpg)
+
+## Friends
+
+![friends](assets/images/readme/friends.jpg)
+
+## Footer
+
+![footer](assets/images/readme/footer.jpg)
+
+## Error
+
+![error](assets/images/readme/error.jpg)
+
+
+
