@@ -230,7 +230,20 @@ Mobile
 | Instagram link | When clicked should open instagram in new tab | Opens in new tab |
 | Discord link | When clicked should open discord in new tab | Opens in new tab |
 
+# Bugs
 
+| Issue | Fix |
+| --- | --- |
+| Wrong picture format leading to poor performance of web site | Change format from jpg to webp |
+| Links missing attributes leading to open sites inside of web site | Added target, rel and aria-label |
+| Multiple typing errors in javascript leading to console errors | Removed typing errors |
+| Multiple div tags without closing tags | Added closing tags |
+| Css file filed with unused classes | Removed unused classes |
+| Wrong font size in few media queries leading bad responsiveness | Corrected font sizes |
+
+# Unfixed bugs
+
+Under Goals section, after unlocking achievement its return in primary position UNLOCK when your goods depleted or used, then required amount of a achievement.
 
 # Technologies
 
