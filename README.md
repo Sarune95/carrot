@@ -1,4 +1,4 @@
-# Carrot
+# Carrot clicker game
 ![responsive](assets/images/readme/responsive.jpg)
 
 [LIVE PAGE](https://sarune95.github.io/carrot/)
@@ -46,7 +46,7 @@
 
 # Design
 
-Carrot digging game is designed for any age group of people, simple on the eye looking and easy to understand as we also give the support for the game itself. In this game you have to keep clicking till you collect reach your goals in order to win the game, there are supports for you as to upgrade the amount of carrots or simply to add additional carrots in order for you to win faster. You can play this game at any time anywhere as there is no time limit.
+Carrot clicker game is designed for any age group of people, simple looking and easy to understand. In this game you have to keep clicking till unlock upgrades and collect your goals in order to win the game. You can play this game at any time, anywhere, as there is no time limit.
 
 ## Colors
 
@@ -130,7 +130,7 @@ Upgrades section includes three individual items. On the left show visual appear
 
 ![friends](assets/images/readme/friends.jpg)
 
-In this section represented all your available helpers. On left shows they'r personal picture, middle shows details and follows by button to hire them and upgrade, but best part friend brings carrots to user without pressing main game button, but good things came at pretty steep price then upgrades.
+In this section represented all your available helpers. On left shows they'r personal picture, middle shows details and follows by button to hire them and upgrade, but best part friend brings carrots to user without pressing main game button, but good things came at pretty steep price,  then other upgrades.
 
 ## Footer
 
@@ -218,7 +218,7 @@ Mobile
 
 | Feature | Test | Result |
 | --- | --- | --- |
-| Logo text | Testing with multiple resolution stays responsive readable | Stays responsive, readable |
+| Logo text | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
 | Logo image | Testing with multiple resolutions stays responsive | Stays responsive |
 | Welcome message | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
 | Start game button | When clicked should enter game | Redirecting to the game |
@@ -261,7 +261,7 @@ Mobile
 
 | Feature | Test | Result |
 | --- | --- | --- |
-| Logo text | Testing with multiple resolution stays responsive readable | Stays responsive, readable |
+| Logo text | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
 | Logo image | Testing with multiple resolutions stays responsive | Stays responsive |
 | Message | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
 | Return button | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
@@ -284,7 +284,7 @@ Mobile
 
 # Unfixed bugs
 
-Under Goals section, after unlocking achievement its return in primary position UNLOCK when your goods depleted or used, then required amount of a achievement.
+Under Goals section, after unlocking achievement its return in primary position UNLOCK when your goods depleted or used, than required amount of a achievement.
 
 # Technologies
 
@@ -310,7 +310,7 @@ Under Goals section, after unlocking achievement its return in primary position 
 
 [Favicon.io](https://favicon.io/) to create the favicon
 
-[Am I Responsive?](https://ui.dev/amiresponsive) TO show web site image on different devices
+[Am I Responsive?](https://ui.dev/amiresponsive) to show web site image on different devices
 
 [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test features
 
