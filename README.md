@@ -171,9 +171,12 @@ Mobile
 
 # Manual testing
 
+## Web site
+
+### Home Page
+
 | Feature | Test | Result |
 | --- | --- | --- |
-| Home page |
 | Logo text | Testing with multiple resolution stays responsive readable | Stays responsive, readable |
 | Logo image | Testing with multiple resolutions stays responsive | Stays responsive |
 | Welcome message | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
@@ -185,7 +188,11 @@ Mobile
 | Twitter link | When clicked should open twitter in new tab | Opens in new tab |
 | Instagram link | When clicked should open instagram in new tab | Opens in new tab |
 | Discord link | When clicked should open discord in new tab | Opens in new tab |
-| Game page |
+
+### Game page
+
+| Feature | Test | Result |
+| --- | --- | --- |
 | Logo text | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
 | Logo image | Testing with multiple resolutions stays responsive | Stays responsive |
 | Goal list | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
@@ -208,7 +215,11 @@ Mobile
 | Twitter link | When clicked should open twitter in new tab | Opens in new tab |
 | Instagram link | When clicked should open instagram in new tab | Opens in new tab |
 | Discord link | When clicked should open discord in new tab | Opens in new tab |
-| 404 page |
+
+### 404 page
+
+| Feature | Test | Result |
+| --- | --- | --- |
 | Logo text | Testing with multiple resolution stays responsive readable | Stays responsive, readable |
 | Logo image | Testing with multiple resolutions stays responsive | Stays responsive |
 | Message | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
