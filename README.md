@@ -141,6 +141,83 @@ was tested with enabled setting (New JavaScript features (ES6)) in configure opt
 
 ### Starter page
 
+Desktop
+
+![index_desktop](assets/images/readme/index_desktop.jpg)
+
+Mobile
+
+![index_mobile](assets/images/readme/index_mobile.jpg)
+
 ### Game page
 
+Desktop
+
+![game_desktop](assets/images/readme/game_desktop.jpg)
+
+Mobile
+
+![game_mobile](assets/images/readme/game_mobile.jpg)
+
 ### 404
+
+Desktop
+
+![404_desktop](assets/images/readme/404_desktop.jpg)
+
+Mobile
+
+![404_mobile](assets/images/readme/404_mobile.jpg)
+
+# Manual testing
+
+| Feature | Test | Result |
+| --- | --- | --- |
+| Home page |
+| Logo text | Testing with multiple resolution stays responsive readable | Stays responsive, readable |
+| Logo image | Testing with multiple resolutions stays responsive | Stays responsive |
+| Welcome message | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
+| Start game button | When clicked should enter game | Redirecting to the game |
+| Start game button | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
+| Information text | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable | 
+| Goal text | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
+| Facebook link | When clicked should open facebook in new tab | Opens in new tab |
+| Twitter link | When clicked should open twitter in new tab | Opens in new tab |
+| Instagram link | When clicked should open instagram in new tab | Opens in new tab |
+| Discord link | When clicked should open discord in new tab | Opens in new tab |
+| Game page |
+| Logo text | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
+| Logo image | Testing with multiple resolutions stays responsive | Stays responsive |
+| Goal list | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
+| Goal list | Records all goals on right amount goods | Records all goals|
+| Info list | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
+| Info list | Records all statistics right | Shows right amount goods, records per click, records per second |
+| Hit button | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
+| Hit button | Check if increase right amount goods | Increase correct amount |
+| Upgrade item image | Testing with multiple resolutions stays responsive | Stays responsive |
+| Upgrade item statistics | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
+| Upgrade item statistics | Records correct levels and prices after upgrade | Shows right levels and price |
+| Upgrade item button | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
+| Upgrade item button | Increase upgrade item levels and prices | Increase levels and prices |
+| Friends item image | Testing with multiple resolutions stays responsive | Stays responsive |
+| Friends item statistics | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
+| Friends item statistics | Records correct levels and prices after upgrade | Shows right levels and price |
+| Friends item button | Testing with multiple resolutions stays responsive and readable | Stays responsive, readable |
+| Friends item button | Increase upgrade item levels and prices | Increase levels and prices |
+| Facebook link | When clicked should open facebook in new tab | Opens in new tab |
+| Twitter link | When clicked should open twitter in new tab | Opens in new tab |
+| Instagram link | When clicked should open instagram in new tab | Opens in new tab |
+| Discord link | When clicked should open discord in new tab | Opens in new tab |
+| 404 page |
+| Logo text | Testing with multiple resolution stays responsive readable | Stays responsive, readable |
+| Logo image | Testing with multiple resolutions stays responsive | Stays responsive |
+| Message | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
+| Return button | Testing with multiple resolution stays responsive and readable | Stays responsive, readable |
+| Return button | Returns to home page | Redirects to home page |
+| Facebook link | When clicked should open facebook in new tab | Opens in new tab |
+| Twitter link | When clicked should open twitter in new tab | Opens in new tab |
+| Instagram link | When clicked should open instagram in new tab | Opens in new tab |
+| Discord link | When clicked should open discord in new tab | Opens in new tab |
+
+
+
