@@ -28,8 +28,9 @@ let matt = 0;
 function increment() {
     carrots += carrotsPerClick;
 	document.getElementById("showCarrots").innerText = carrots;
-	if (carrots >= 999999999) { // num can be changed to increase/decrease  goal
-		document.getElementById("gameOver").innerText = "Congrats!!! You beat the ultimate score";
+	if (carrots >= 999) { // num can be changed to increase/decrease  goal
+		alert("Congrats!!! You reach end game goal. Click ok to restart game.");
+		location.reload();	
 	}
     showResults();
 }
@@ -39,7 +40,8 @@ setInterval(function() {
 	carrots += carrotsPerSecond;
     document.getElementById("showCarrots").innerText = carrots;
 	if (carrots >= 999999999) { // num can be changed to increase/decrease  goal
-		document.getElementById("gameOver").innerText = "Congrats!!! You beat the ultimate score";
+		alert("Congrats!!! You reach end game goal. Click ok to restart game.");
+		location.reload();
 	}
     showResults();
 }, 1000); // every second (1000 milliseconds)
