@@ -108,3 +108,21 @@ This error message alert only when user try upgrade or hire friend with insuffic
 ![end game](assets/images/readme/end_goal.jpg)
 
 This message waiting everyone, but only shows up to mostly devoted users, which are chosen to gain enough carrots to reach end game.
+
+# Automated testing
+
+## HTML
+
+HTML was validated using [https://validator.w3.org/](https://validator.w3.org/)
+
+index.html ![html](assets/images/readme/html.jpg)
+
+game.html ![html](assets/images/readme/html.jpg)
+
+404.html ![html](assets/images/readme/html.jpg)
+
+## CSS
+
+CSS was validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+
+![css](assets/images/readme/css.jpg)
