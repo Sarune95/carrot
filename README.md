@@ -261,3 +261,22 @@ Mobile
 [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) to troubleshoot and test features
 
 [Lighthouse](https://developer.chrome.com/en/docs/lighthouse/) to check web site performance
+
+# Deployment
+
+This site was deployed via GitHub pages using the following steps:
+
+- From the GitHub repository, navigate to Settings
+- In the left-hand navigation section select Pages
+- From the source section drop-down menu change Branch from none to main and click the Save
+- After several minutes the website is live and will be automatically refreshed with each Git push command.
+
+[LIVE PAGE](https://sarune95.github.io/carrot/)
+
+To run locally:
+
+- Log into GitHub and click on repository to download [Carrot Clicker](https://github.com/Sarune95/carrot)
+- Select Code and click "Download the Zip file.
+- Once download is completed, extract ZIP file and use in your local environment.
+
+Alternatively you can Clone or Fork this repository into your GitHub account.
