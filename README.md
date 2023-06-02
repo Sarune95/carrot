@@ -126,3 +126,21 @@ game.html ![html](assets/images/readme/html.jpg)
 CSS was validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
 ![css](assets/images/readme/css.jpg)
+
+## JavaScript
+
+JavaScript was validated using [https://jshint.com](https://jshint.com)
+
+Return no errors
+
+was tested with enabled setting (New JavaScript features (ES6)) in configure option.
+
+![java](assets/images/readme/java.jpg)
+
+## Lighthouse
+
+### Starter page
+
+### Game page
+
+### 404
