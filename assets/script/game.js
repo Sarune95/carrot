@@ -46,6 +46,7 @@ setInterval(function() {
     showResults();
 }, 1000); // every second (1000 milliseconds)
 
+// Goal system
 function showResults() {
 	let resultText = "";
 	const goal = [
